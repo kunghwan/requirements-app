@@ -11,7 +11,7 @@ const UserHome = () => {
       {projects.map((project, index) => {
         return (
           <NavLink key={project.id} to={project.id} className="link">
-            {index + 1}.{project.title}.{project.id}
+            {index + 1}.{project.title}
           </NavLink>
         );
       })}
