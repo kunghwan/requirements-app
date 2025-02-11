@@ -10,9 +10,9 @@ const UserHome = () => {
       <h1>UserHome</h1>
       {projects.map((project, index) => {
         return (
-          <div key={project.id} to={project.id} className="link">
+          <NavLink key={project.id} to={project.id} className="link">
             {index + 1}.{project.title}.{project.id}
-          </div>
+          </NavLink>
         );
       })}
     </div>

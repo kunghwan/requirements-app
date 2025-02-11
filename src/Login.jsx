@@ -33,7 +33,7 @@ const Login = () => {
         }}
       >
         <div>
-          <label htmlFor="email"></label>
+          <label htmlFor="email">이메일</label>
           <input
             type="text"
             value={email}
@@ -42,7 +42,7 @@ const Login = () => {
           />
         </div>
         <div>
-          <label htmlFor="password"></label>
+          <label htmlFor="password">비밀번호</label>
 
           <input
             type="text"

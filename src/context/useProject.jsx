@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 import { useContext, createContext } from "react";
 
 export const projectContext = createContext({

@@ -12,7 +12,7 @@ const ProjectProvider = ({ children }) => {
   const [projects, setProjects] = useState([project]);
 
   useEffect(() => {
-    console.log({ projects, setProjects });
+    console.log({ projects });
   }, [projects]);
 
   return (
